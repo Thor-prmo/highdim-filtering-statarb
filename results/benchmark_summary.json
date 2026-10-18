@@ -47,8 +47,8 @@
     ],
     "parseval_rel_error": 4.321136e-14,
     "max_roundtrip_error": 1.98952e-13,
-    "speedup_at_N20_x": 17.5,
-    "max_speedup_x": 23.4,
+    "speedup_at_N20_x": 18.7,
+    "max_speedup_x": 21.3,
     "inverse_filter_psnr_gain_db": 9.36,
     "wiener_mse_reduction_vs_inverse_pct": 41.3
   }

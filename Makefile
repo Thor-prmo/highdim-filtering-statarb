@@ -24,8 +24,8 @@ reproduce: build
 
 plots: reproduce
 
-paper: reproduce
-	MPLCONFIGDIR=/tmp PYTHONPATH=. $(PYTHON) scripts/generate_technical_note.py
+paper:
+	cd paper && pdflatex -interaction=nonstopmode technical_note.tex && pdflatex -interaction=nonstopmode technical_note.tex && cp technical_note.pdf ../Technical_Note.pdf
 
 clean:
 	rm -rf build/ .pytest_cache/
